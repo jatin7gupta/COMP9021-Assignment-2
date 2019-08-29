@@ -54,9 +54,8 @@ file to another–we do not bother with allowing for variations, in the use of s
 </svg>
 ```
 
-```
 Opened in a browser,pieces_A.xmldisplays as follows:
-```
+
 Note that the coordinates are nonnegative integers. This means that the sets of pieces we consider rule out
 those of the traditional game of tangram, where √2 is involved everywhere...
 We require every piece to be a **convex** polygon. An.xmlfile should represent a piece withnsides (n≥ 3 )
@@ -95,19 +94,16 @@ The fileshape_A_1.xmlwhose contents is
 ```
 and which displays as
 
-```
+
 is such an example. The fileshape_A_2.xmlwhose contents is
-```
+```xml
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
 <path d="M 50 10 L 90 10 L 90 50 L 130 50 L 130 90 L 90 90 L 90 130...
 ...L 50 130 L 50 90 L 10 90 L 10 50 L 50 50 z" fill="brown"/>
 </svg>
 
 ```
-and which displays as
-```
-
-is another such example.
+and which displays as is another such example.
 Contrary to pieces, shapes are not assumed to be convex polygons. Still they are assumed to be **simple**
 polygons (the boundary of a simple polygon does not cross itself; in particular, it cannot consist of at least 2
 polygons that are connected by letting two of them just “touch” each other at one of their vertices– _e.g._ , two
@@ -261,6 +257,6 @@ True
 False
 
 ```
-Note that the functionis_solution()does not print outTrueorFalse, but returnsTrueorFalse.
+Note that the functionis_solution()does not print out True or False, but returns True or False.
 
 
