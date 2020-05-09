@@ -1,4 +1,4 @@
-# Assignment 2
+# Tangram
 
 ## COMP9021, Trimester 1, 2019
 
